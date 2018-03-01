@@ -14,7 +14,7 @@ iteration=20
 #starting number
 startnum=94
 #definition of gradient descent function
-def gradientdescent(sayi):
+def gradientdescent(number):
     alpha=0.025 #descent rate
     w=[startnum] #making startnum the first element of list
     for i in range(iteration):
