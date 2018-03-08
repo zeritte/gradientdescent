@@ -31,4 +31,4 @@ plt.plot(t1,drawbase,"k") #plotting base
 plt.plot(gradientdescent(star), drawmiss, "k", color='red') #plotting points and making connections between them
 plt.plot(gradientdescent(star), drawmiss, "o", color='blue') #making points more distinguishable
 plt.show() #showing final graph.
-#created with love, SKB
+#created with love
