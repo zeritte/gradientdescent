@@ -1,4 +1,6 @@
-#you may use gradient descent and plotting python file with just changing the number that is worked on, the starting number, iteration number, missout function and its derivative, and also alpha. unfortunately i cannot find a way to automatically take derivative.
+#you may use gradient descent and plotting python file with just changing the number that is worked on, 
+#the starting number, iteration number, missout function and its derivative, and also alpha.
+#unfortunately i cannot find a way to automatically take derivative.
 #importings
 import matplotlib.pyplot as plt
 import numpy as np
@@ -26,7 +28,7 @@ drawbase= list() #created in order to plot
 for i in gradientdescent(star):
     drawmiss.append(missout(i)) #finding y components of graph
 for i in range(-star,star+1):
-    drawbase.append(missout(i)) #finding base of graph to see points clearly as in r
+    drawbase.append(missout(i)) #finding base of graph to see points clearly
 plt.plot(t1,drawbase,"k") #plotting base
 plt.plot(gradientdescent(star), drawmiss, "k", color='red') #plotting points and making connections between them
 plt.plot(gradientdescent(star), drawmiss, "o", color='blue') #making points more distinguishable
